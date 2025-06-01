@@ -36,6 +36,6 @@ db.employees.updateOne({ email: "mike@gmail.com" }, { $set: { salary: 23 } });
 
  db.dropUser("john")
 
- open mongodb compass
+ //open mongodb compass
 
- mongodb://admin:admin@localhost:27017
+ //mongodb://admin:admin@localhost:27017
